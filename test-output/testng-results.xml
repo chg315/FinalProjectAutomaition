@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="35" passed="34">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="559085" started-at="2022-09-04T06:26:38Z" finished-at="2022-09-04T06:35:57Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="559085" started-at="2022-09-04T06:26:38Z" finished-at="2022-09-04T06:35:57Z">
+      <class name="Suite1_RegistrationAndAuthentication.Page_3_TerminalXLogoutTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Suite1_RegistrationAndAuthentication.Page_3_TerminalXLogoutTest@cc43f62]" name="setUp" is-config="true" duration-ms="7" started-at="2022-09-04T09:30:30Z" finished-at="2022-09-04T09:30:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testcase1()[pri:0, instance:Suite1_RegistrationAndAuthentication.Page_3_TerminalXLogoutTest@cc43f62]" name="testcase1" duration-ms="2156" started-at="2022-09-04T09:30:30Z" finished-at="2022-09-04T09:30:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase1 -->
+      </class> <!-- Suite1_RegistrationAndAuthentication.Page_3_TerminalXLogoutTest -->
+      <class name="Suite1_RegistrationAndAuthentication.Page_1_TerminalXRegistrationTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Suite1_RegistrationAndAuthentication.Page_1_TerminalXRegistrationTest@5e2c3d18]" name="setUp" is-config="true" duration-ms="24389" started-at="2022-09-04T09:26:38Z" finished-at="2022-09-04T09:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testcase1()[pri:1, instance:Suite1_RegistrationAndAuthentication.Page_1_TerminalXRegistrationTest@5e2c3d18]" name="testcase1" duration-ms="1978" started-at="2022-09-04T09:27:02Z" description="checkInputFirstName_IfEmpty" finished-at="2022-09-04T09:27:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase1 -->
+        <test-method status="PASS" signature="testcase2()[pri:2, instance:Suite1_RegistrationAndAuthentication.Page_1_TerminalXRegistrationTest@5e2c3d18]" name="testcase2" duration-ms="9683" started-at="2022-09-04T09:27:05Z" description="checkInputLasttName_IfEmpty" finished-at="2022-09-04T09:27:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase2 -->
+        <test-method status="PASS" signature="testcase3()[pri:3, instance:Suite1_RegistrationAndAuthentication.Page_1_TerminalXRegistrationTest@5e2c3d18]" name="testcase3" duration-ms="10167" started-at="2022-09-04T09:27:14Z" description="checkInputNumberPhone_IfNotCorect" finished-at="2022-09-04T09:27:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase3 -->
+        <test-method status="PASS" signature="testcase4()[pri:4, instance:Suite1_RegistrationAndAuthentication.Page_1_TerminalXRegistrationTest@5e2c3d18]" name="testcase4" duration-ms="10605" started-at="2022-09-04T09:27:24Z" description="checkInputNumberPhone_IfEmpty" finished-at="2022-09-04T09:27:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase4 -->
+        <test-method status="PASS" signature="testcase5()[pri:5, instance:Suite1_RegistrationAndAuthentication.Page_1_TerminalXRegistrationTest@5e2c3d18]" name="testcase5" duration-ms="10333" started-at="2022-09-04T09:27:35Z" description="checkInputEmail_IfNotCorect" finished-at="2022-09-04T09:27:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase5 -->
+        <test-method status="PASS" signature="testcase6()[pri:6, instance:Suite1_RegistrationAndAuthentication.Page_1_TerminalXRegistrationTest@5e2c3d18]" name="testcase6" duration-ms="9690" started-at="2022-09-04T09:27:45Z" description="checkInputEmail_IfEmpty" finished-at="2022-09-04T09:27:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase6 -->
+        <test-method status="PASS" signature="testcase7()[pri:7, instance:Suite1_RegistrationAndAuthentication.Page_1_TerminalXRegistrationTest@5e2c3d18]" name="testcase7" duration-ms="11153" started-at="2022-09-04T09:27:55Z" description="checkInputPassword_IfEmpty" finished-at="2022-09-04T09:28:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase7 -->
+        <test-method status="PASS" signature="testcase8()[pri:8, instance:Suite1_RegistrationAndAuthentication.Page_1_TerminalXRegistrationTest@5e2c3d18]" name="testcase8" duration-ms="10490" started-at="2022-09-04T09:28:06Z" description="checkInputConfirmPassword_IfEmpty" finished-at="2022-09-04T09:28:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase8 -->
+        <test-method status="PASS" signature="testcase9()[pri:9, instance:Suite1_RegistrationAndAuthentication.Page_1_TerminalXRegistrationTest@5e2c3d18]" name="testcase9" duration-ms="10442" started-at="2022-09-04T09:28:17Z" description="checkInputConfirmPassword_IfEmpty" finished-at="2022-09-04T09:28:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase9 -->
+        <test-method status="PASS" signature="testcase10()[pri:10, instance:Suite1_RegistrationAndAuthentication.Page_1_TerminalXRegistrationTest@5e2c3d18]" name="testcase10" duration-ms="8900" started-at="2022-09-04T09:28:27Z" description="checkInputPassword_unless8letters" finished-at="2022-09-04T09:28:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase10 -->
+        <test-method status="PASS" signature="testcase11()[pri:11, instance:Suite1_RegistrationAndAuthentication.Page_1_TerminalXRegistrationTest@5e2c3d18]" name="testcase11" duration-ms="8549" started-at="2022-09-04T09:28:36Z" description="checkInputPassword_withoutLowerCaseLetter" finished-at="2022-09-04T09:28:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase11 -->
+        <test-method status="PASS" signature="testcase12()[pri:12, instance:Suite1_RegistrationAndAuthentication.Page_1_TerminalXRegistrationTest@5e2c3d18]" name="testcase12" duration-ms="8018" started-at="2022-09-04T09:28:45Z" description="checkInputPassword_withoutCapitalLetter" finished-at="2022-09-04T09:28:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase12 -->
+        <test-method status="PASS" signature="testcase13()[pri:13, instance:Suite1_RegistrationAndAuthentication.Page_1_TerminalXRegistrationTest@5e2c3d18]" name="testcase13" duration-ms="9012" started-at="2022-09-04T09:28:53Z" description="checkInputPassword_withoutspecialChar" finished-at="2022-09-04T09:29:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase13 -->
+        <test-method status="FAIL" signature="testcase14()[pri:14, instance:Suite1_RegistrationAndAuthentication.Page_1_TerminalXRegistrationTest@5e2c3d18]" name="testcase14" duration-ms="23558" started-at="2022-09-04T09:29:02Z" description="checkAllCorrect" finished-at="2022-09-04T09:29:25Z">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of element located by By.cssSelector: [data-test-id="qa-header-profile-button"] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'DESKTOP-ROECGEC', ip: '192.168.8.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.102, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\THIS_U~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56504}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56504/devtoo..., se:cdpVersion: 104.0.5112.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 927308643bc8f88532892913bf925f68]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.cssSelector: [data-test-id="qa-header-profile-button"] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'DESKTOP-ROECGEC', ip: '192.168.8.100', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.102, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\THIS_U~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56504}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56504/devtoo..., se:cdpVersion: 104.0.5112.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 927308643bc8f88532892913bf925f68
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:138)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at utils.BasePage.waitUntilVisibilityElemntLocated(BasePage.java:54)
+	at Suite1_RegistrationAndAuthentication.PageTerminalXRegistrationObjectModel.checkAllCorrect(PageTerminalXRegistrationObjectModel.java:178)
+	at Suite1_RegistrationAndAuthentication.Page_1_TerminalXRegistrationTest.testcase14(Page_1_TerminalXRegistrationTest.java:121)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:100)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:811)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1129)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:746)
+	at org.testng.TestRunner.run(TestRunner.java:600)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1264)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1189)
+	at org.testng.TestNG.runSuites(TestNG.java:1104)
+	at org.testng.TestNG.run(TestNG.java:1076)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:152)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:57)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase14 -->
+      </class> <!-- Suite1_RegistrationAndAuthentication.Page_1_TerminalXRegistrationTest -->
+      <class name="Suite3_Search.Page_6_TerminalXSearchTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Suite3_Search.Page_6_TerminalXSearchTest@5b218417]" name="setUp" is-config="true" duration-ms="7818" started-at="2022-09-04T09:30:32Z" finished-at="2022-09-04T09:30:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testcase1()[pri:0, instance:Suite3_Search.Page_6_TerminalXSearchTest@5b218417]" name="testcase1" duration-ms="6413" started-at="2022-09-04T09:30:40Z" description="checkIfAllTheResultsContainTheTermSearch" finished-at="2022-09-04T09:30:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase1 -->
+        <test-method status="PASS" signature="testcase2()[pri:0, instance:Suite3_Search.Page_6_TerminalXSearchTest@5b218417]" name="testcase2" duration-ms="16433" started-at="2022-09-04T09:30:47Z" description="ChekLowestToHighesPricesButton" finished-at="2022-09-04T09:31:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase2 -->
+        <test-method status="PASS" signature="testcase3()[pri:0, instance:Suite3_Search.Page_6_TerminalXSearchTest@5b218417]" name="testcase3" duration-ms="16698" started-at="2022-09-04T09:31:03Z" description="ChekHighesToLowestPricesButton" finished-at="2022-09-04T09:31:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase3 -->
+      </class> <!-- Suite3_Search.Page_6_TerminalXSearchTest -->
+      <class name="Suite2_ShoppingCart.Page_7_TerminalXShoppingCartTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Suite2_ShoppingCart.Page_7_TerminalXShoppingCartTest@6caf0677]" name="setUp" is-config="true" duration-ms="19" started-at="2022-09-04T09:34:35Z" finished-at="2022-09-04T09:34:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="tastcase1()[pri:1, instance:Suite2_ShoppingCart.Page_7_TerminalXShoppingCartTest@6caf0677]" name="tastcase1" duration-ms="26546" started-at="2022-09-04T09:34:35Z" finished-at="2022-09-04T09:35:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tastcase1 -->
+        <test-method status="PASS" signature="tastcase2()[pri:2, instance:Suite2_ShoppingCart.Page_7_TerminalXShoppingCartTest@6caf0677]" name="tastcase2" duration-ms="39531" started-at="2022-09-04T09:35:02Z" finished-at="2022-09-04T09:35:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tastcase2 -->
+        <test-method status="PASS" signature="tastcase3()[pri:3, instance:Suite2_ShoppingCart.Page_7_TerminalXShoppingCartTest@6caf0677]" name="tastcase3" duration-ms="1683" started-at="2022-09-04T09:35:41Z" finished-at="2022-09-04T09:35:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tastcase3 -->
+        <test-method status="PASS" signature="tastcase4()[pri:4, instance:Suite2_ShoppingCart.Page_7_TerminalXShoppingCartTest@6caf0677]" name="tastcase4" duration-ms="3509" started-at="2022-09-04T09:35:43Z" finished-at="2022-09-04T09:35:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tastcase4 -->
+        <test-method status="PASS" signature="tastcase5()[pri:5, instance:Suite2_ShoppingCart.Page_7_TerminalXShoppingCartTest@6caf0677]" name="tastcase5" duration-ms="10574" started-at="2022-09-04T09:35:46Z" finished-at="2022-09-04T09:35:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tastcase5 -->
+      </class> <!-- Suite2_ShoppingCart.Page_7_TerminalXShoppingCartTest -->
+      <class name="Suite3_Search.Page_5_TerminalXFilterTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Suite3_Search.Page_5_TerminalXFilterTest@645aa696]" name="setUp" is-config="true" duration-ms="15029" started-at="2022-09-04T09:31:20Z" finished-at="2022-09-04T09:31:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testcase1()[pri:0, instance:Suite3_Search.Page_5_TerminalXFilterTest@645aa696]" name="testcase1" duration-ms="18810" started-at="2022-09-04T09:31:35Z" finished-at="2022-09-04T09:31:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase1 -->
+        <test-method status="PASS" signature="testcase2()[pri:0, instance:Suite3_Search.Page_5_TerminalXFilterTest@645aa696]" name="testcase2" duration-ms="29271" started-at="2022-09-04T09:31:54Z" finished-at="2022-09-04T09:32:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase2 -->
+        <test-method status="PASS" signature="testcase3()[pri:0, instance:Suite3_Search.Page_5_TerminalXFilterTest@645aa696]" name="testcase3" duration-ms="32274" started-at="2022-09-04T09:32:23Z" finished-at="2022-09-04T09:32:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase3 -->
+        <test-method status="PASS" signature="testcase4()[pri:0, instance:Suite3_Search.Page_5_TerminalXFilterTest@645aa696]" name="testcase4" duration-ms="34948" started-at="2022-09-04T09:32:55Z" finished-at="2022-09-04T09:33:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase4 -->
+        <test-method status="PASS" signature="testcase5()[pri:0, instance:Suite3_Search.Page_5_TerminalXFilterTest@645aa696]" name="testcase5" duration-ms="31320" started-at="2022-09-04T09:33:30Z" finished-at="2022-09-04T09:34:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase5 -->
+        <test-method status="PASS" signature="testcase6()[pri:0, instance:Suite3_Search.Page_5_TerminalXFilterTest@645aa696]" name="testcase6" duration-ms="33763" started-at="2022-09-04T09:34:01Z" finished-at="2022-09-04T09:34:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase6 -->
+      </class> <!-- Suite3_Search.Page_5_TerminalXFilterTest -->
+      <class name="Suite1_RegistrationAndAuthentication.Page_2_TerminalXLoginTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Suite1_RegistrationAndAuthentication.Page_2_TerminalXLoginTest@2cb4893b]" name="setUp" is-config="true" duration-ms="18211" started-at="2022-09-04T09:29:25Z" finished-at="2022-09-04T09:29:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testcase1()[pri:0, instance:Suite1_RegistrationAndAuthentication.Page_2_TerminalXLoginTest@2cb4893b]" name="testcase1" duration-ms="7224" started-at="2022-09-04T09:29:43Z" finished-at="2022-09-04T09:29:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase1 -->
+        <test-method status="PASS" signature="testcase2()[pri:0, instance:Suite1_RegistrationAndAuthentication.Page_2_TerminalXLoginTest@2cb4893b]" name="testcase2" duration-ms="7440" started-at="2022-09-04T09:29:51Z" finished-at="2022-09-04T09:29:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase2 -->
+        <test-method status="PASS" signature="testcase3()[pri:0, instance:Suite1_RegistrationAndAuthentication.Page_2_TerminalXLoginTest@2cb4893b]" name="testcase3" duration-ms="6987" started-at="2022-09-04T09:29:58Z" finished-at="2022-09-04T09:30:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase3 -->
+        <test-method status="PASS" signature="testcase4()[pri:0, instance:Suite1_RegistrationAndAuthentication.Page_2_TerminalXLoginTest@2cb4893b]" name="testcase4" duration-ms="6616" started-at="2022-09-04T09:30:05Z" finished-at="2022-09-04T09:30:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase4 -->
+        <test-method status="PASS" signature="testcase5()[pri:0, instance:Suite1_RegistrationAndAuthentication.Page_2_TerminalXLoginTest@2cb4893b]" name="testcase5" duration-ms="6525" started-at="2022-09-04T09:30:12Z" finished-at="2022-09-04T09:30:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase5 -->
+        <test-method status="PASS" signature="testcase6()[pri:0, instance:Suite1_RegistrationAndAuthentication.Page_2_TerminalXLoginTest@2cb4893b]" name="testcase6" duration-ms="11910" started-at="2022-09-04T09:30:18Z" finished-at="2022-09-04T09:30:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase6 -->
+      </class> <!-- Suite1_RegistrationAndAuthentication.Page_2_TerminalXLoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

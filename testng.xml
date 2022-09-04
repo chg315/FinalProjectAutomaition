@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test" preserve-order="true">
+    <classes  >
+      <class name="Suite1_RegistrationAndAuthentication.Page_1_TerminalXRegistrationTest"/>
+      <class name="Suite1_RegistrationAndAuthentication.Page_2_TerminalXLoginTest"/>
+      <class name="Suite1_RegistrationAndAuthentication.Page_3_TerminalXLogoutTest"/>
+      <class name="Suite3_Search.Page_6_TerminalXSearchTest"/>
+      <class name="Suite3_Search.Page_5_TerminalXFilterTest"/>
+      <class name="Suite2_ShoppingCart.Page_7_TerminalXShoppingCartTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

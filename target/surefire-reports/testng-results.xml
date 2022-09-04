@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="11953" started-at="2022-08-23T13:07:30 IDT" finished-at="2022-08-23T13:07:42 IDT">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="11953" started-at="2022-08-23T13:07:30 IDT" finished-at="2022-08-23T13:07:42 IDT">
+      <class name="RegistrationAndAuthentication.PageEbayRegistrationTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:RegistrationAndAuthentication.PageEbayRegistrationTest@7d9d0818]" name="setUp" is-config="true" duration-ms="4164" started-at="2022-08-23T13:07:30 IDT" finished-at="2022-08-23T13:07:35 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testcase1()[pri:0, instance:RegistrationAndAuthentication.PageEbayRegistrationTest@7d9d0818]" name="testcase1" duration-ms="7647" started-at="2022-08-23T13:07:35 IDT" finished-at="2022-08-23T13:07:42 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase1 -->
+      </class> <!-- RegistrationAndAuthentication.PageEbayRegistrationTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>

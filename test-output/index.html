@@ -1,0 +1,1062 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Suite">
+              <span class="suite-name border-failed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Suite">
+                    <span>C:\Users\This_User\Desktop\bootcemp- ness\java\finalProjectOtomaition\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">35 methods, 1 failed,   34 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Suite1_RegistrationAndAuthentication.Page_1_TerminalXRegistrationTest" hash-for-method="testcase14">testcase14</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Suite2_ShoppingCart.Page_7_TerminalXShoppingCartTest" hash-for-method="tastcase1">tastcase1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Suite2_ShoppingCart.Page_7_TerminalXShoppingCartTest" hash-for-method="tastcase2">tastcase2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Suite2_ShoppingCart.Page_7_TerminalXShoppingCartTest" hash-for-method="tastcase3">tastcase3</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Suite2_ShoppingCart.Page_7_TerminalXShoppingCartTest" hash-for-method="tastcase4">tastcase4</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Suite2_ShoppingCart.Page_7_TerminalXShoppingCartTest" hash-for-method="tastcase5">tastcase5</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Suite1_RegistrationAndAuthentication.Page_3_TerminalXLogoutTest" hash-for-method="testcase1">testcase1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Suite1_RegistrationAndAuthentication.Page_2_TerminalXLoginTest" hash-for-method="testcase1">testcase1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Suite1_RegistrationAndAuthentication.Page_1_TerminalXRegistrationTest" hash-for-method="testcase1">testcase1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Suite3_Search.Page_5_TerminalXFilterTest" hash-for-method="testcase1">testcase1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Suite3_Search.Page_6_TerminalXSearchTest" hash-for-method="testcase1">testcase1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Suite1_RegistrationAndAuthentication.Page_1_TerminalXRegistrationTest" hash-for-method="testcase10">testcase10</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Suite1_RegistrationAndAuthentication.Page_1_TerminalXRegistrationTest" hash-for-method="testcase11">testcase11</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Suite1_RegistrationAndAuthentication.Page_1_TerminalXRegistrationTest" hash-for-method="testcase12">testcase12</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Suite1_RegistrationAndAuthentication.Page_1_TerminalXRegistrationTest" hash-for-method="testcase13">testcase13</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Suite1_RegistrationAndAuthentication.Page_2_TerminalXLoginTest" hash-for-method="testcase2">testcase2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Suite3_Search.Page_6_TerminalXSearchTest" hash-for-method="testcase2">testcase2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Suite3_Search.Page_5_TerminalXFilterTest" hash-for-method="testcase2">testcase2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Suite1_RegistrationAndAuthentication.Page_1_TerminalXRegistrationTest" hash-for-method="testcase2">testcase2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Suite1_RegistrationAndAuthentication.Page_2_TerminalXLoginTest" hash-for-method="testcase3">testcase3</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Suite3_Search.Page_6_TerminalXSearchTest" hash-for-method="testcase3">testcase3</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Suite1_RegistrationAndAuthentication.Page_1_TerminalXRegistrationTest" hash-for-method="testcase3">testcase3</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Suite3_Search.Page_5_TerminalXFilterTest" hash-for-method="testcase3">testcase3</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Suite1_RegistrationAndAuthentication.Page_2_TerminalXLoginTest" hash-for-method="testcase4">testcase4</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Suite1_RegistrationAndAuthentication.Page_1_TerminalXRegistrationTest" hash-for-method="testcase4">testcase4</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Suite3_Search.Page_5_TerminalXFilterTest" hash-for-method="testcase4">testcase4</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Suite1_RegistrationAndAuthentication.Page_2_TerminalXLoginTest" hash-for-method="testcase5">testcase5</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Suite3_Search.Page_5_TerminalXFilterTest" hash-for-method="testcase5">testcase5</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Suite1_RegistrationAndAuthentication.Page_1_TerminalXRegistrationTest" hash-for-method="testcase5">testcase5</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Suite1_RegistrationAndAuthentication.Page_2_TerminalXLoginTest" hash-for-method="testcase6">testcase6</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Suite1_RegistrationAndAuthentication.Page_1_TerminalXRegistrationTest" hash-for-method="testcase6">testcase6</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Suite3_Search.Page_5_TerminalXFilterTest" hash-for-method="testcase6">testcase6</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Suite1_RegistrationAndAuthentication.Page_1_TerminalXRegistrationTest" hash-for-method="testcase7">testcase7</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Suite1_RegistrationAndAuthentication.Page_1_TerminalXRegistrationTest" hash-for-method="testcase8">testcase8</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="Suite1_RegistrationAndAuthentication.Page_1_TerminalXRegistrationTest" hash-for-method="testcase9">testcase9</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">Suite1_RegistrationAndAuthentication.Page_1_TerminalXRegistrationTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testcase14">
+                  </a> <!-- testcase14 -->
+                  <span class="method-name">testcase14</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.cssSelector: [data-test-id=&quot;qa-header-profile-button&quot;] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.0.0&apos;, revision: &apos;3a21814679&apos;
+System info: host: &apos;DESKTOP-ROECGEC&apos;, ip: &apos;192.168.8.100&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.102, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\THIS_U~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56504}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56504/devtoo..., se:cdpVersion: 104.0.5112.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 927308643bc8f88532892913bf925f68
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:138)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at utils.BasePage.waitUntilVisibilityElemntLocated(BasePage.java:54)
+	at Suite1_RegistrationAndAuthentication.PageTerminalXRegistrationObjectModel.checkAllCorrect(PageTerminalXRegistrationObjectModel.java:178)
+	at Suite1_RegistrationAndAuthentication.Page_1_TerminalXRegistrationTest.testcase14(Page_1_TerminalXRegistrationTest.java:121)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(checkAllCorrect)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Suite1_RegistrationAndAuthentication.Page_3_TerminalXLogoutTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testcase1">
+                  </a> <!-- testcase1 -->
+                  <span class="method-name">testcase1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Suite1_RegistrationAndAuthentication.Page_1_TerminalXRegistrationTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testcase1">
+                  </a> <!-- testcase1 -->
+                  <span class="method-name">testcase1</span>
+                  <em>
+(checkInputFirstName_IfEmpty)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testcase10">
+                  </a> <!-- testcase10 -->
+                  <span class="method-name">testcase10</span>
+                  <em>
+(checkInputPassword_unless8letters)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testcase11">
+                  </a> <!-- testcase11 -->
+                  <span class="method-name">testcase11</span>
+                  <em>
+(checkInputPassword_withoutLowerCaseLetter)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testcase12">
+                  </a> <!-- testcase12 -->
+                  <span class="method-name">testcase12</span>
+                  <em>
+(checkInputPassword_withoutCapitalLetter)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testcase13">
+                  </a> <!-- testcase13 -->
+                  <span class="method-name">testcase13</span>
+                  <em>
+(checkInputPassword_withoutspecialChar)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testcase2">
+                  </a> <!-- testcase2 -->
+                  <span class="method-name">testcase2</span>
+                  <em>
+(checkInputLasttName_IfEmpty)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testcase3">
+                  </a> <!-- testcase3 -->
+                  <span class="method-name">testcase3</span>
+                  <em>
+(checkInputNumberPhone_IfNotCorect)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testcase4">
+                  </a> <!-- testcase4 -->
+                  <span class="method-name">testcase4</span>
+                  <em>
+(checkInputNumberPhone_IfEmpty)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testcase5">
+                  </a> <!-- testcase5 -->
+                  <span class="method-name">testcase5</span>
+                  <em>
+(checkInputEmail_IfNotCorect)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testcase6">
+                  </a> <!-- testcase6 -->
+                  <span class="method-name">testcase6</span>
+                  <em>
+(checkInputEmail_IfEmpty)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testcase7">
+                  </a> <!-- testcase7 -->
+                  <span class="method-name">testcase7</span>
+                  <em>
+(checkInputPassword_IfEmpty)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testcase8">
+                  </a> <!-- testcase8 -->
+                  <span class="method-name">testcase8</span>
+                  <em>
+(checkInputConfirmPassword_IfEmpty)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testcase9">
+                  </a> <!-- testcase9 -->
+                  <span class="method-name">testcase9</span>
+                  <em>
+(checkInputConfirmPassword_IfEmpty)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Suite1_RegistrationAndAuthentication.Page_2_TerminalXLoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testcase1">
+                  </a> <!-- testcase1 -->
+                  <span class="method-name">testcase1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testcase2">
+                  </a> <!-- testcase2 -->
+                  <span class="method-name">testcase2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testcase3">
+                  </a> <!-- testcase3 -->
+                  <span class="method-name">testcase3</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testcase4">
+                  </a> <!-- testcase4 -->
+                  <span class="method-name">testcase4</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testcase5">
+                  </a> <!-- testcase5 -->
+                  <span class="method-name">testcase5</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testcase6">
+                  </a> <!-- testcase6 -->
+                  <span class="method-name">testcase6</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Suite2_ShoppingCart.Page_7_TerminalXShoppingCartTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="tastcase1">
+                  </a> <!-- tastcase1 -->
+                  <span class="method-name">tastcase1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tastcase2">
+                  </a> <!-- tastcase2 -->
+                  <span class="method-name">tastcase2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tastcase3">
+                  </a> <!-- tastcase3 -->
+                  <span class="method-name">tastcase3</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tastcase4">
+                  </a> <!-- tastcase4 -->
+                  <span class="method-name">tastcase4</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tastcase5">
+                  </a> <!-- tastcase5 -->
+                  <span class="method-name">tastcase5</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Suite3_Search.Page_5_TerminalXFilterTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testcase1">
+                  </a> <!-- testcase1 -->
+                  <span class="method-name">testcase1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testcase2">
+                  </a> <!-- testcase2 -->
+                  <span class="method-name">testcase2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testcase3">
+                  </a> <!-- testcase3 -->
+                  <span class="method-name">testcase3</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testcase4">
+                  </a> <!-- testcase4 -->
+                  <span class="method-name">testcase4</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testcase5">
+                  </a> <!-- testcase5 -->
+                  <span class="method-name">testcase5</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testcase6">
+                  </a> <!-- testcase6 -->
+                  <span class="method-name">testcase6</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Suite3_Search.Page_6_TerminalXSearchTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testcase1">
+                  </a> <!-- testcase1 -->
+                  <span class="method-name">testcase1</span>
+                  <em>
+(checkIfAllTheResultsContainTheTermSearch)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testcase2">
+                  </a> <!-- testcase2 -->
+                  <span class="method-name">testcase2</span>
+                  <em>
+(ChekLowestToHighesPricesButton)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testcase3">
+                  </a> <!-- testcase3 -->
+                  <span class="method-name">testcase3</span>
+                  <em>
+(ChekHighesToLowestPricesButton)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\This_User\Desktop\bootcemp- ness\java\finalProjectOtomaition\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Suite&quot;&gt;
+  &lt;test name=&quot;Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Suite1_RegistrationAndAuthentication.Page_1_TerminalXRegistrationTest&quot;/&gt;
+      &lt;class name=&quot;Suite1_RegistrationAndAuthentication.Page_2_TerminalXLoginTest&quot;/&gt;
+      &lt;class name=&quot;Suite1_RegistrationAndAuthentication.Page_3_TerminalXLogoutTest&quot;/&gt;
+      &lt;class name=&quot;Suite3_Search.Page_6_TerminalXSearchTest&quot;/&gt;
+      &lt;class name=&quot;Suite3_Search.Page_5_TerminalXFilterTest&quot;/&gt;
+      &lt;class name=&quot;Suite2_ShoppingCart.Page_7_TerminalXShoppingCartTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (6 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(35);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'tastcase2')
+data.setCell(0, 2, 'Suite2_ShoppingCart.Page_7_TerminalXShoppingCartTest')
+data.setCell(0, 3, 39531);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testcase4')
+data.setCell(1, 2, 'Suite3_Search.Page_5_TerminalXFilterTest')
+data.setCell(1, 3, 34948);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testcase6')
+data.setCell(2, 2, 'Suite3_Search.Page_5_TerminalXFilterTest')
+data.setCell(2, 3, 33763);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testcase3')
+data.setCell(3, 2, 'Suite3_Search.Page_5_TerminalXFilterTest')
+data.setCell(3, 3, 32274);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testcase5')
+data.setCell(4, 2, 'Suite3_Search.Page_5_TerminalXFilterTest')
+data.setCell(4, 3, 31320);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testcase2')
+data.setCell(5, 2, 'Suite3_Search.Page_5_TerminalXFilterTest')
+data.setCell(5, 3, 29271);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'tastcase1')
+data.setCell(6, 2, 'Suite2_ShoppingCart.Page_7_TerminalXShoppingCartTest')
+data.setCell(6, 3, 26546);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testcase14')
+data.setCell(7, 2, 'Suite1_RegistrationAndAuthentication.Page_1_TerminalXRegistrationTest')
+data.setCell(7, 3, 23558);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testcase1')
+data.setCell(8, 2, 'Suite3_Search.Page_5_TerminalXFilterTest')
+data.setCell(8, 3, 18810);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'testcase3')
+data.setCell(9, 2, 'Suite3_Search.Page_6_TerminalXSearchTest')
+data.setCell(9, 3, 16698);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'testcase2')
+data.setCell(10, 2, 'Suite3_Search.Page_6_TerminalXSearchTest')
+data.setCell(10, 3, 16433);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'testcase6')
+data.setCell(11, 2, 'Suite1_RegistrationAndAuthentication.Page_2_TerminalXLoginTest')
+data.setCell(11, 3, 11910);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'testcase7')
+data.setCell(12, 2, 'Suite1_RegistrationAndAuthentication.Page_1_TerminalXRegistrationTest')
+data.setCell(12, 3, 11153);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'testcase4')
+data.setCell(13, 2, 'Suite1_RegistrationAndAuthentication.Page_1_TerminalXRegistrationTest')
+data.setCell(13, 3, 10605);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'tastcase5')
+data.setCell(14, 2, 'Suite2_ShoppingCart.Page_7_TerminalXShoppingCartTest')
+data.setCell(14, 3, 10574);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'testcase8')
+data.setCell(15, 2, 'Suite1_RegistrationAndAuthentication.Page_1_TerminalXRegistrationTest')
+data.setCell(15, 3, 10490);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'testcase9')
+data.setCell(16, 2, 'Suite1_RegistrationAndAuthentication.Page_1_TerminalXRegistrationTest')
+data.setCell(16, 3, 10442);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'testcase5')
+data.setCell(17, 2, 'Suite1_RegistrationAndAuthentication.Page_1_TerminalXRegistrationTest')
+data.setCell(17, 3, 10333);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'testcase3')
+data.setCell(18, 2, 'Suite1_RegistrationAndAuthentication.Page_1_TerminalXRegistrationTest')
+data.setCell(18, 3, 10167);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'testcase6')
+data.setCell(19, 2, 'Suite1_RegistrationAndAuthentication.Page_1_TerminalXRegistrationTest')
+data.setCell(19, 3, 9690);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'testcase2')
+data.setCell(20, 2, 'Suite1_RegistrationAndAuthentication.Page_1_TerminalXRegistrationTest')
+data.setCell(20, 3, 9683);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'testcase13')
+data.setCell(21, 2, 'Suite1_RegistrationAndAuthentication.Page_1_TerminalXRegistrationTest')
+data.setCell(21, 3, 9012);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'testcase10')
+data.setCell(22, 2, 'Suite1_RegistrationAndAuthentication.Page_1_TerminalXRegistrationTest')
+data.setCell(22, 3, 8900);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'testcase11')
+data.setCell(23, 2, 'Suite1_RegistrationAndAuthentication.Page_1_TerminalXRegistrationTest')
+data.setCell(23, 3, 8549);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'testcase12')
+data.setCell(24, 2, 'Suite1_RegistrationAndAuthentication.Page_1_TerminalXRegistrationTest')
+data.setCell(24, 3, 8018);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'testcase2')
+data.setCell(25, 2, 'Suite1_RegistrationAndAuthentication.Page_2_TerminalXLoginTest')
+data.setCell(25, 3, 7440);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'testcase1')
+data.setCell(26, 2, 'Suite1_RegistrationAndAuthentication.Page_2_TerminalXLoginTest')
+data.setCell(26, 3, 7224);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'testcase3')
+data.setCell(27, 2, 'Suite1_RegistrationAndAuthentication.Page_2_TerminalXLoginTest')
+data.setCell(27, 3, 6987);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'testcase4')
+data.setCell(28, 2, 'Suite1_RegistrationAndAuthentication.Page_2_TerminalXLoginTest')
+data.setCell(28, 3, 6616);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'testcase5')
+data.setCell(29, 2, 'Suite1_RegistrationAndAuthentication.Page_2_TerminalXLoginTest')
+data.setCell(29, 3, 6525);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'testcase1')
+data.setCell(30, 2, 'Suite3_Search.Page_6_TerminalXSearchTest')
+data.setCell(30, 3, 6413);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'tastcase4')
+data.setCell(31, 2, 'Suite2_ShoppingCart.Page_7_TerminalXShoppingCartTest')
+data.setCell(31, 3, 3509);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'testcase1')
+data.setCell(32, 2, 'Suite1_RegistrationAndAuthentication.Page_3_TerminalXLogoutTest')
+data.setCell(32, 3, 2156);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'testcase1')
+data.setCell(33, 2, 'Suite1_RegistrationAndAuthentication.Page_1_TerminalXRegistrationTest')
+data.setCell(33, 3, 1978);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'tastcase3')
+data.setCell(34, 2, 'Suite2_ShoppingCart.Page_7_TerminalXShoppingCartTest')
+data.setCell(34, 3, 1683);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 8 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">Suite1_RegistrationAndAuthentication.Page_1_TerminalXRegistrationTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testcase1</span>
+                <span class="method-start">24412 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testcase2</span>
+                <span class="method-start">26542 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testcase3</span>
+                <span class="method-start">36233 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testcase4</span>
+                <span class="method-start">46405 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testcase5</span>
+                <span class="method-start">57013 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testcase6</span>
+                <span class="method-start">67357 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testcase7</span>
+                <span class="method-start">77051 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testcase8</span>
+                <span class="method-start">88209 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testcase9</span>
+                <span class="method-start">98705 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testcase10</span>
+                <span class="method-start">109152 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testcase11</span>
+                <span class="method-start">118065 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testcase12</span>
+                <span class="method-start">126618 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testcase13</span>
+                <span class="method-start">134643 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testcase14</span>
+                <span class="method-start">143668 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Suite1_RegistrationAndAuthentication.Page_2_TerminalXLoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">167232 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testcase1</span>
+                <span class="method-start">185443 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testcase2</span>
+                <span class="method-start">192671 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testcase3</span>
+                <span class="method-start">200119 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testcase4</span>
+                <span class="method-start">207110 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testcase5</span>
+                <span class="method-start">213730 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testcase6</span>
+                <span class="method-start">220260 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Suite1_RegistrationAndAuthentication.Page_3_TerminalXLogoutTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">232174 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testcase1</span>
+                <span class="method-start">232181 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Suite3_Search.Page_6_TerminalXSearchTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">234340 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testcase1</span>
+                <span class="method-start">242158 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testcase2</span>
+                <span class="method-start">248574 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testcase3</span>
+                <span class="method-start">265010 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Suite3_Search.Page_5_TerminalXFilterTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">281710 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testcase1</span>
+                <span class="method-start">296740 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testcase2</span>
+                <span class="method-start">315553 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testcase3</span>
+                <span class="method-start">344827 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testcase4</span>
+                <span class="method-start">377104 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testcase5</span>
+                <span class="method-start">412054 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testcase6</span>
+                <span class="method-start">443378 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Suite2_ShoppingCart.Page_7_TerminalXShoppingCartTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">477149 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">tastcase1</span>
+                <span class="method-start">477168 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">tastcase2</span>
+                <span class="method-start">503718 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">tastcase3</span>
+                <span class="method-start">543254 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">tastcase4</span>
+                <span class="method-start">544942 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">tastcase5</span>
+                <span class="method-start">548457 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="Suite1_RegistrationAndAuthentication.Page_1_TerminalXRegistrationTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="testcase14"/>
+        </methods>
+      </class> <!-- Suite1_RegistrationAndAuthentication.Page_1_TerminalXRegistrationTest -->
+      <class name="Suite1_RegistrationAndAuthentication.Page_3_TerminalXLogoutTest">
+        <methods>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- Suite1_RegistrationAndAuthentication.Page_3_TerminalXLogoutTest -->
+      <class name="Suite1_RegistrationAndAuthentication.Page_2_TerminalXLoginTest">
+        <methods>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- Suite1_RegistrationAndAuthentication.Page_2_TerminalXLoginTest -->
+      <class name="Suite2_ShoppingCart.Page_7_TerminalXShoppingCartTest">
+        <methods>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- Suite2_ShoppingCart.Page_7_TerminalXShoppingCartTest -->
+      <class name="Suite3_Search.Page_5_TerminalXFilterTest">
+        <methods>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- Suite3_Search.Page_5_TerminalXFilterTest -->
+      <class name="Suite3_Search.Page_6_TerminalXSearchTest">
+        <methods>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- Suite3_Search.Page_6_TerminalXSearchTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

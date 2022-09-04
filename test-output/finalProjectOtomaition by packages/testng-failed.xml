@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [finalProjectOtomaition by packages]">
+  <test name="RegistrationAndAuthentication(failed)">
+    <classes>
+      <class name="RegistrationAndAuthentication.PageTerminalXLoginTest">
+        <methods>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- RegistrationAndAuthentication.PageTerminalXLoginTest -->
+      <class name="RegistrationAndAuthentication.PageTerminalXLogoutTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="testcase1"/>
+        </methods>
+      </class> <!-- RegistrationAndAuthentication.PageTerminalXLogoutTest -->
+    </classes>
+  </test> <!-- RegistrationAndAuthentication(failed) -->
+</suite> <!-- Failed suite [finalProjectOtomaition by packages] -->
